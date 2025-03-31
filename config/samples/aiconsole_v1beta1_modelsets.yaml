@@ -1,0 +1,9 @@
+apiVersion: aiconsole.ctyun.cn/v1beta1
+kind: ModelSets
+metadata:
+  labels:
+    app.kubernetes.io/name: aiconsole
+    app.kubernetes.io/managed-by: kustomize
+  name: modelsets-sample
+spec:
+  # TODO(user): Add fields here
